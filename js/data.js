@@ -66,3 +66,4 @@ const addPhotos = () => {
 addPhotos();
 
 export{arrayObject};
+
