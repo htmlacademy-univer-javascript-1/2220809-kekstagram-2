@@ -1,3 +1,4 @@
-import { arrayObject } from './data.js';
+import './data.js';
+import './render.js';
+import './util.js';
 
-arrayObject();
