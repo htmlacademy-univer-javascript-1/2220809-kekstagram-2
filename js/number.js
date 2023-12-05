@@ -12,4 +12,4 @@ const numDecline = (num, nominative, genitiveSingular, genitivePlural) => {
   return genitivePlural;
 };
 export {numDecline};
-  
+
