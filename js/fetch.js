@@ -9,7 +9,7 @@ const sendRequest = (onSuccess, onFail, method, body) => {
       method: method,
       body: body,
     },
-    )
+  )
     .then((response) => response.json())
     .then((data) => {
       onSuccess(data);
@@ -17,8 +17,6 @@ const sendRequest = (onSuccess, onFail, method, body) => {
     .catch(() => {
       onFail();
     });
-  };
-
+};
 export {sendRequest};
-
-  
+ 
